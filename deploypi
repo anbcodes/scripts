@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp -r "$0" "/tmp/$1"
+scp -r "/tmp/$1" piblue:/home/ubuntu/data/static_hosting/data/
